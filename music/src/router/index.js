@@ -18,7 +18,6 @@ const routes = [
   },
   {
     name: 'manage',
-    // alias: 'manage-music',
     path: '/manage',
     component: Manage,
     beforeEnter: (to, from, next) => {
